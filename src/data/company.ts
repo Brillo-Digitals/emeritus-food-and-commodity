@@ -10,7 +10,7 @@ export const company = {
   whatsapp: '+234 81440 41240',
   whatsappLink: `https://wa.me/2348144041240?text=${encodeURIComponent(whatsappMessage)}`,
   email: 'contact@emeritusfoods.com',
-  location: 'Ilorin, Kwara State, Nigeria',
+  location: '32 Powerline Trewolede area, Ilorin, Kwara State',
   hours: '7am - 9pm (Mon - Sat)',
   social: {
     instagram: '#',
