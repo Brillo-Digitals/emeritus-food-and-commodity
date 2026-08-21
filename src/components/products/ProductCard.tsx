@@ -46,9 +46,9 @@ export default function ProductCard({
         </p>
         <h3 className="mt-1.5 font-display text-xl text-deep">{product.name}</h3>
         <p className="mt-1.5 text-sm text-muted leading-relaxed">{product.description}</p>
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <Badge status={product.availability} />
-          <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-forest">
+          <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-sm font-semibold text-forest">
             View Product
             <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
           </span>
